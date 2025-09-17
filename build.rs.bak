@@ -1,0 +1,8 @@
+fn main() {
+    cc::Build::new()
+        .file("boot/start.S")
+        .flag("-nostdlib")
+        .compile("start");
+    println!("cargo:rerun-if-changed=boot/start.S");
+    println!("cargo:rerun-if-changed=boot/linker.ld");
+}

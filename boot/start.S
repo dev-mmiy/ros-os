@@ -1,4 +1,3 @@
-\
     .global _start
 _start:
     // Assume EL1 on QEMU virt; set up a simple stack and call rust entry.

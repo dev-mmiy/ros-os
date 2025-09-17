@@ -1,12 +1,10 @@
-\
 [build]
 target = "aarch64-unknown-none"
 
 [target.aarch64-unknown-none]
+# リンカは LLD を使う（外部GNU ld不要）
+linker = "rust-lld"
 rustflags = [
   "-C", "link-arg=-Tboot/linker.ld",
-  "-C", "relocation-model=static",
   "-C", "panic=abort",
 ]
-# use LLD (default for many bare-metal targets)
-linker-flavor = "ld.lld"
