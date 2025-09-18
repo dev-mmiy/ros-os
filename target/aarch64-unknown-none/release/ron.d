@@ -1,1 +1,1 @@
-/home/mmiy/workspace/ros-os/target/aarch64-unknown-none/release/ron: /home/mmiy/workspace/ros-os/boot/linker.ld /home/mmiy/workspace/ros-os/boot/start.S /home/mmiy/workspace/ros-os/build.rs /home/mmiy/workspace/ros-os/src/main.rs
+/home/mmiy/workspace/ros-os/target/aarch64-unknown-none/release/ron: /home/mmiy/workspace/ros-os/boot/linker.ld /home/mmiy/workspace/ros-os/boot/start.S /home/mmiy/workspace/ros-os/build.rs /home/mmiy/workspace/ros-os/src/arch.rs /home/mmiy/workspace/ros-os/src/main.rs
